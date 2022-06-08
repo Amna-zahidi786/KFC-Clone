@@ -1,0 +1,41 @@
+.footer-wrapper 
+{
+    margin-top:90px ;
+}
+.footer-wrapper .footer-logo
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    width: 20%;
+}
+.footer-inner ul
+{
+    padding: 0;
+    margin: 0;
+}
+.footer-inner ul li
+{
+   list-style-type: none;
+}
+.footer-inner ul li a
+{
+   text-decoration: none;
+   color: #222;
+}
+.footer-inner ul li a img
+{
+    width: 200px;
+}
+.store-img-wrapper li 
+{
+    text-align: center;
+}
+.copy-wrire-wrapper li
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: #222;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+.Register-wrapper
+{
+    text-align: center;
+}
+.Register-wrapper h2
+{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(248, 240, 240);
+    padding: 8px 12px;
+}
+.Register-wrapper li
+{
+    list-style-type: none;
+    margin: 32px;
+}
+.Register-wrapper .gmail a
+{
+    text-decoration: none;
+    color: rgb(245, 234, 234);
+    padding: 8px 90px;
+    font-weight: 700;
+    border: 2px solid #fe5141;
+    background-color: #fe5141;
+}
+.Register-wrapper .facebook a
+{
+    text-decoration: none;
+    padding: 8px 78px;
+    font-weight: 700;
+    color: rgb(230, 220, 220);
+    border: 2px solid #375b97;
+    background-color: #375b97;
+}
+.Register-wrapper form
+{
+    color: black;
+    font-weight: 700;
+    width: 100%;
+}

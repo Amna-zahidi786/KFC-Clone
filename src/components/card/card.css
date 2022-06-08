@@ -1,0 +1,42 @@
+.card-wrapper
+{
+    margin-top: 28px;
+}
+.card-wrapper .card
+{
+    border: none;
+    margin: 12px 0;
+    color: black;
+}
+.card-wrapper
+{
+    color: black;
+}
+.link-router
+{
+   text-decoration-line: none;
+}
+.card-wrapper .card-body
+{
+    padding: 0;
+    padding-top: 12px;
+    color: black;
+}
+.btn-wrapper button
+{
+    width: 50%;
+    border-radius: 0;
+    border: 2px solid #dc3546;
+}
+.card-wrapper h5
+{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-wrapper span
+{
+    font-size: 13px;
+}
+
+

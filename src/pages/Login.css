@@ -1,0 +1,74 @@
+.sign-in-wrapper
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.sign-in-wrapper span
+{
+    color: black;
+}
+.sign-in-wrapper form
+{
+    color: black;
+    font-weight: 700;
+    width: 100%;
+}
+.sign-in-wrapper button
+{
+    background-color: #375b97;
+    color: aliceblue;
+}
+.sign-in-wrapper h2
+{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.sign-in-wrapper .gmail
+{
+    list-style-type: none;
+    margin: 24px;
+}
+.sign-in-wrapper .gmail a
+{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(245, 240, 240);
+    border: 2px solid #fe5141;
+    background-color: #fe5141;
+    padding: 8px 52px;
+}
+.sign-in-wrapper .facebook
+{
+    list-style-type: none;
+    margin-bottom: 24px;
+}
+.sign-in-wrapper .facebook a
+{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(230, 220, 220);
+    border: 2px solid #375b97;
+    background-color: #375b97;
+    padding: 8px 40px;
+}
+.sign-in-wrapper p
+{
+    color: black;
+    padding: 4px 50px;
+}
+.sign-in-wrapper a
+{
+    text-decoration: none;
+    padding: 8px 40px;
+    border: 2px solid #fe5141;
+    color: black;
+}
+.sign-in-wrapper .account:hover
+{
+    color: rgb(17, 13, 13);
+    font-weight: 700;
+    background-color: #fe5141;
+    color: aliceblue;
+}
