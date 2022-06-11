@@ -14,6 +14,7 @@ function Header() {
                 <ul>
                 <li><i class="bi bi-layer-backward"></i>   <Link to="/">Back to home</Link></li>
                     <li><i class="bi bi-people-fill"/>   <Link to="/Login">Sign in</Link></li>
+                    <li><Link to="/Api">API</Link></li>
                 </ul>
             </div>
         </div>
