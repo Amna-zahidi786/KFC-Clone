@@ -1,5 +1,7 @@
 import React from "react";
 import './Menu.css'
+import { Link } from "react-router-dom";
+
 
 function Menu() {
   return (
@@ -13,7 +15,7 @@ function Menu() {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Everyday value</a>
+                <Link class="nav-link active" aria-current="page" to="/Product">Everyday value</Link>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Signature Boxes</a>
@@ -30,6 +32,7 @@ function Menu() {
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Midnight deals</a>
               </li>
+             
              
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

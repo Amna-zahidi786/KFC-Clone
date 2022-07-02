@@ -18,14 +18,20 @@ const Home = () => {
           <div className='card-wrapper'>
           <div className='row'>
              
-             {
-                 product.map(p=><Card prod = {p}/>)
-             }
+            <div className='col-md-4'>
+                <Card/>
+            </div>
+            <div className='col-md-4'>
+                <Card/>
+            </div>
+            <div className='col-md-4'>
+                <Card/>
+            </div>
              
          </div>
           </div>
             
-            <Footer />
+           
         </div>
     )
 }

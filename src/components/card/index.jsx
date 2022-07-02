@@ -4,24 +4,22 @@ import card1 from '../../assets/img/card1.JPG'
 import './card.css'
 
 
-const Card = ({prod}) => {
+const index = () => {
   return (
-    <div className='col-md-4'>
-    <Link className='link-router' to={`/detail/${prod.id}`}>
-    <div class="card">
-        <img src={card1} class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">{prod.title}</h5>
-          <span class="card-text">{prod.description}</span>
-          <div className='btn-wrapper d-flex'>
-          <button type="button" class="btn btn-outline-danger btn-wrapper">PKR {prod.price}</button>
-          <button type="button" class="btn btn-danger btn-wrapper">Add to cart</button>
-        </div>
-      </div>
-    </div>
-    </Link>
+    <div className="card-wrapper">
+      <div class="card">
+  <Link to="./ProductDetailPage"> <img src={card1} class="card-img-top" alt="..."/></Link>
+  <div class="card-body">
+    <h5 class="card-title">Crispy Box</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <div className='btn-wrapper d-flex'>
+   <button type="button" class="btn btn-outline-danger btn-wrapper">PKR 250/-</button>
+    <button href="#" class="btn btn-danger btn-wrapper">ADD to Bucket</button>
+  </div>
+  </div>
+</div>
     </div>
   )
 }
 
-export default Card
+export default index

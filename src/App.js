@@ -7,9 +7,9 @@ import Header from './components/Header';
 import Menu from './components/Menu';
 import Register from './pages/Register';
 import Detail from './pages/Detail';
-import Api from './pages/Api';
-
-
+import Footer from './components/Footer';
+import Product from './pages/Product';
+import ProductDetail from './pages/ProductDetailPage';
 
 
 function App() {
@@ -23,12 +23,13 @@ function App() {
         <Header />
         <Menu />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<Home/>} />
           <Route path='/Login' element={<Login />} />
           <Route path='/Register' element={<Register />}/>
-          <Route path='/detail/:id' element={<Detail />}/>
-          <Route path='Api' element={<Api/>}/>
+          <Route path='/Product' element={<Product/>}/>
+          <Route path='/ProductDetailPage' element={<ProductDetail/>}/>
         </Routes>
+       <Footer/>
       </BrowserRouter>
     </div>
 

@@ -1,0 +1,20 @@
+.productDetail-wrapper h3,span
+{
+    color: black;
+}
+.productDetail-wrapper a
+{
+    text-decoration: none;
+    color: gray;
+}
+.productDetail-wrapper img {
+    opacity: 0.7;
+  }
+  
+.productDetail-wrapper img:hover {
+    opacity: 1.0;
+  }
+  .radio-control
+  {
+    color: black;
+  }
